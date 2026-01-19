@@ -2,37 +2,106 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color:#00aaff;
     display: flex;
     justify-content: center;
 }
 
 .wrapper {
-    width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: aqua;
     padding: 10px 20px 0px;
+    margin-top: 8%;
+    height: 300px;
 }
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li{
+    border: solid 1px;
+    width: 150px;
+    padding: 10px;
+    margin-right: 250px;
+    background-color: white;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.menu ul li:hover {
+    background-color: rgb(7, 84, 123);
+} 
+
 .header {
-    background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
+
+.header img {
+    width: 200px;
+    margin-left: 80%;
+    height: 150px;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    width: 70%;
 }
+
+.content p {
+    font-family: sans-serif;
+}
+
+.content img {
+    width: 150px;
+    margin-left: 40%;
+}
+
+.content .table-horarios {
+    font-family: sans-serif;
+}
+
+.content .table-horarios th{
+    background-color: black;
+    color: white;
+}
+
+.content .form-contatos input{
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.content .form-contatos button{
+    width: 150px;
+    padding: 10px;
+    background-color: #00aaff;
+    color: white;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    font-family: sans-serif;
+    margin-top: 10%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
 }
